@@ -1,9 +1,13 @@
 // import React from 'react'
 
+import AppRouter from './AppRouter';
+import Header from './components/common/Header';
+
 function App() {
   return (
-    <div className="App">
-      <h2>Hello F-vally</h2>
+    <div>
+      <Header />
+      <AppRouter />
     </div>
   );
 }
