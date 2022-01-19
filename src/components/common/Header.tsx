@@ -3,11 +3,12 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { FiPhoneCall } from 'react-icons/fi';
 import { FaRegEnvelope } from 'react-icons/fa';
 import { BsPhone } from 'react-icons/bs';
+import logo from 'assets/images/fvaly.png';
 
 const Header = () => {
   return (
     <div className="header__component">
-      <div className="top-header">
+      <div className="top-header py-2 bg-light border-bottom">
         <Container className="d-flex align-items-center justify-content-between">
           <ul className="list-unstyled d-flex align-items-center gap-4">
             <li>
@@ -23,6 +24,13 @@ const Header = () => {
           <div>
             <BsPhone />
             <a href="#">Save big on our app!</a>
+          </div>
+        </Container>
+      </div>
+      <div className="middle-header">
+        <Container>
+          <div className="d-flex align-items-center">
+            <img className="branding" src={logo} alt="Fvaly" />
           </div>
         </Container>
       </div>
