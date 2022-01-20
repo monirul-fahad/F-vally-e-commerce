@@ -69,7 +69,7 @@ const Header = () => {
         <Container>
           <Navbar.Brand href="#home">Categories</Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="#home">News feed</Nav.Link>
+            <Nav.Link href="#home">News Feed</Nav.Link>
             <Nav.Link href="#home">Merchant Zone</Nav.Link>
             <Nav.Link href="#home">Help</Nav.Link>
           </Nav>
